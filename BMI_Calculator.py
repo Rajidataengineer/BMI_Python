@@ -1,5 +1,7 @@
+# To get input from user
 weight=float(input("enter your weight in Kg :"))
 height = float(input("enter the height in meters:"))
+# Calculating BMI value based on Formula
 bmi=weight/(height * height)
 print("Your BMI is: ",{round(bmi,2)})
 if(0>bmi<=16):
